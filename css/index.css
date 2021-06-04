@@ -105,3 +105,58 @@ footer {
     padding-right: 100px;
 }
 
+/*UX_UI_HW_18*/
+
+/*My UX Skills Start*/
+h1 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-family: Poppins;
+}
+
+.flexContainer {
+    display: flex;
+    width: 33%;
+    margin: auto;
+    justify-content: space-evenly;
+   
+}
+
+.flexDiv1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 251, 255, 31%);
+    border-radius: 4px;
+    margin-left: 25px;
+    height: 320px;
+    justify-content: space-evenly;
+    
+}
+.flexDiv2{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 251, 255, 31%);
+    border-radius: 4px;
+    margin-left: 25px;
+    height: 320px;
+    justify-content: space-evenly;
+    
+}
+.flexDiv3{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 251, 255, 31%);
+    border-radius: 4px;
+    margin-left: 25px;
+    height: 32  0px;
+    justify-content: space-evenly;
+    
+}
+
+/*My UX Skills End*/
+
+
