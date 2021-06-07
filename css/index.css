@@ -132,6 +132,7 @@ h1 {
     margin-left: 25px;
     height: 320px;
     justify-content: space-evenly;
+
     
 }
 .flexDiv2{
@@ -143,6 +144,7 @@ h1 {
     margin-left: 25px;
     height: 320px;
     justify-content: space-evenly;
+
     
 }
 .flexDiv3{
@@ -152,9 +154,9 @@ h1 {
     background-color: rgba(240, 251, 255, 31%);
     border-radius: 4px;
     margin-left: 25px;
-    height: 32  0px;
+    height: 320px;
     justify-content: space-evenly;
-    
+
 }
 
 /*My UX Skills End*/
@@ -222,7 +224,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
     .workGrid {
-    grid-template-rows: px 300px 300px 300px 300px;
+    grid-template-rows:  600px 600px 620px 650px;
     grid-template-columns: 1fr;
     grid-template-areas:
     "projectOne"
@@ -230,4 +232,16 @@ h1 {
     "projectThree"
     "projectFour"
     ;}
+
+    .flexContainer {
+        display: grid;
+        margin-bottom: 300px;
+        grid-template-rows: 400px 400px 400px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "flexDiv1"
+        "flexDiv2"
+        "flexDiv3"
+        ;
+    }
 }
