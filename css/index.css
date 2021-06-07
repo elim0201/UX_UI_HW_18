@@ -159,4 +159,77 @@ h1 {
 
 /*My UX Skills End*/
 
+/*My Work Starts Here */
+/* CSS Styles for Grid Template */
 
+.workGrid { 
+    display: grid;
+    grid-template-rows: 650px 650px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "projectOne projectTwo"
+    "projectThree projectFour"
+    ;
+}
+
+.projectOne {
+    padding: 25px;
+    margin: auto;
+}
+
+.projectTwo {
+    padding: 25px;
+    margin: auto;
+}
+
+.projectThree {
+    padding: 25px;
+    margin: auto;
+}
+
+.projectFour {
+    padding: 25px;
+    margin: auto;
+}
+
+section {
+    margin: auto;
+    padding: 25px;
+}
+
+h1 { 
+    margin-left: 45%;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.viewProject {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+
+}
+
+.studyButton {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width: 600){
+
+    .workGrid { 
+        display: grid;
+        grid-template-rows: 600px 600px 600px 600px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "projectOne"
+        "projectTwo"
+        "projectThree"
+        "projectFour"
+        ;
+
+    }
+}
