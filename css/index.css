@@ -164,12 +164,15 @@ h1 {
 
 .workGrid { 
     display: grid;
+    margin: auto;
     grid-template-rows: 650px 650px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
     "projectOne projectTwo"
     "projectThree projectFour"
     ;
+    
+
 }
 
 .projectOne {
@@ -208,7 +211,6 @@ h1 {
     display: flex;
     padding: 25px;
     justify-content: center;
-
 }
 
 .studyButton {
@@ -218,18 +220,14 @@ h1 {
 
 }
 
-@media only screen and (max-width: 600){
-
-    .workGrid { 
-        display: grid;
-        grid-template-rows: 600px 600px 600px 600px;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        "projectOne"
-        "projectTwo"
-        "projectThree"
-        "projectFour"
-        ;
-
-    }
+@media screen and (max-width: 600px) {
+    .workGrid {
+    grid-template-rows: px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "projectOne"
+    "projectTwo"
+    "projectThree"
+    "projectFour"
+    ;}
 }
